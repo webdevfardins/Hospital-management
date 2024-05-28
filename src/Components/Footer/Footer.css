@@ -1,0 +1,22 @@
+.container{
+     background-color: #9BD37F;
+    height: 180px;
+    padding: 20px;
+    width: 100%;
+
+}
+h4{
+margin-left: 20px;
+font-weight:600;
+font-size:x-large;
+}
+.text{
+display: flex;    
+flex-direction: column;
+font-weight: 350;
+margin-top: 40px;
+font-size:large;
+}
+span{
+    margin-left: 20px;
+}

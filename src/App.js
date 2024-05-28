@@ -2,8 +2,11 @@
 
 import AddPatient from './Components/AddPatient';
 import DateAndLocation from './Components/DateAndLocation';
+import Footer from './Components/Footer/Footer';
 import ICD_Favorites from './Components/ICD_Favorites';
+import Navbar from './Components/Navbar/Navbar';
 import Patients from './Components/Patients';
+import Home from './Components/home/Home';
 
 function App() {
   return (
@@ -11,7 +14,10 @@ function App() {
     {/* <AddPatient/>
     <DateAndLocation/> */}
     {/* <ICD_Favorites/> */}
-    <Patients/>
+    {/* <Patients/> */}
+    <Navbar/>
+    <Home/>
+    <Footer/>
     </div>
   );
 }
