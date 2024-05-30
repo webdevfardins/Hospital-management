@@ -6,8 +6,8 @@ function SignUp() {
         <div className='box'>
         <div>
             <h4>Sign Up</h4>
-            <hr />
-                <form action="">
+          
+                <form className='form'>
                 <input  type="text" name="" placeholder='Name' id="input" />
                 <br />
                 <input type="text" name="" placeholder='Email' id="input" />

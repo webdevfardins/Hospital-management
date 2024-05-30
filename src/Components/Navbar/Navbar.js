@@ -2,6 +2,8 @@ import React from 'react'
 import img from './logo.png'
 import "./Navbar.css"
 import { Link } from 'react-router-dom'
+import { IoIosMenu } from "react-icons/io";
+
 function Navbar() {
   return (
     <div>
@@ -16,23 +18,35 @@ function Navbar() {
             <button>contact us</button>
             </div>
         </nav> */}
-        <nav>
-          <div>
+      
+
+        
+        <header>
+          
+         
+          
             <img  className="logo" src={img} alt="" />
-            </div>
-            <div className='links'>
-            <Link to="/signin ">Sign in</Link>
-            <Link to="/signup">Sign up</Link>
-            <Link to="/abuot">About</Link>
-            <Link to="/services">Services</Link>
-            <Link to="/ourteam">Our Team</Link>
-            <button>contact us</button>
-            </div>
+            
+            <nav>
+            <ul className='nav_links'>
+           <li> <Link className='aclive' to="/signin ">Sign in</Link></li>
+           <li> <Link to="/signup">Sign up</Link></li>
+           <li><Link to="/abuot">About</Link></li>
+           <li><Link to="/services">Services</Link></li>
+           <li> <Link to="/ourteam">Our Team</Link></li>
+            <li><Link to=""><button>CONTACT US</button></Link></li>
+            
+            </ul>
+            </nav>
+            
             <div>
-
+        
             </div>
-        </nav>
-
+            
+        </header>
+        
+        
+        
     </div>
   )
 }
