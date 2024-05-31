@@ -2,25 +2,26 @@ import React from "react";
 
 function Signin() {
   return (
-    
     <div className="container">
-      <div className="box">
+      <div className="box1">
+        <div className="box2">
         
-          <h4>Sign in</h4>
-          
-          <form className="form">
-            <input type="text" name="" placeholder="Email" id="input" />
-          <br/>
-            <input type="text" name="" placeholder="Password" id="input" />
-        <br />
+            <h4>Sign Up</h4>
+        
 
-            
-        <div id='btn'>
-                <button type="button" id='btn1'>submit</button>
-                </div>
-            
+          <form className="form">
+            <input type="text" name="" placeholder="Email" className="input  input-box" />
+            <br />
+            <input type="text" name="" placeholder="Password" className="input  input-box" />
+            <br />
+
+            <div id="btn">
+              <button type="button" id="btn1">
+                submit
+              </button>
+            </div>
           </form>
-      
+        </div>
       </div>
     </div>
   );
