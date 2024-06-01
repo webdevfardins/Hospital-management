@@ -31,8 +31,8 @@ function AddPatient() {
       <span>Gender</span>
       <br />
       <input type="radio" />  <label for="male">Male</label>
-        <input type="radio" />  <label for="female">Female</label>
-        <input type="radio" />  <label for="other">Other</label>
+      <input type="radio" />  <label for="female">Female</label>
+      <input type="radio" />  <label for="other">Other</label>
       <br />
       <span>Chart No.</span>
       <input type="text" name="" id="" />

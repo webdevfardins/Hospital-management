@@ -1,11 +1,11 @@
-body {
+/* body {
     background-color: #ECF0FB;
     width: 100%;
     height: 100%;
 }
 h4{
     
-    width: 10%;
+    width: 20%;
     margin-left: 45%;
     font-size: 12px;
     font-weight: 400;
@@ -13,23 +13,25 @@ h4{
     display: block;
     text-align: center;
     border-bottom: 1px solid #999;
-    
+    max-width: 100%;
     
 }
 
-.container{
+/* .container{
     display: flex;
     justify-content:center;
     align-items: center;
     width: 100%;
+    max-width: 100%;
     height:auto;
     background-color: #ECF0FB;
     align-items: center;
+     padding: 5px 5px;
 }  
-
-   .box1  {
+ */
+   /* .box1  {
     margin: auto;
-    width: 100%;
+    width: 50%;
     padding: 20px;
     align-items: center;
     justify-content: center;
@@ -43,16 +45,17 @@ hr{
     margin-bottom: 20px;
 }
 .box{
-    
     display: flex;
     flex-direction: column;
     background-color: #fff;
     height: 400px;
-    width: 500px;
+    width: 100%;
+    max-width: 100%;
     border-radius: 12px;
     margin: auto;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
+   
    
     
 }
@@ -61,12 +64,13 @@ hr{
     flex-direction: column;
     background-color: #fff;
     height: 400px;
-    width: 500px;
+    width: 100%;
+    max-width: 100%;
     border-radius: 12px;
     margin: auto;
     justify-content: center;
     padding: 20px;
-}
+} */
 
 .input{
     width: 80%;
@@ -98,15 +102,15 @@ label{
     font-weight: 400;
     color: #9197B3;
     margin-left: 2px;
-    padding: 2px;
-    
-    
+    padding-left: 2px;
+    max-width: 100%;
+    text-align: center;
 }
 .cel{
     display: flex;
-    margin-right:40% ;
+    margin-right:50px ;
     align-items: center;
-    justify-content: center;
+    
    margin-bottom: 20px;
 
 }
@@ -131,12 +135,15 @@ background-color: #9197B3;
     width: 50%;
     
  }
- #btn{
+ /* #btn{
+    display: flex;
+    justify-content: center;
     width: 80%;
     height: 40px;
     background-color: #5932EA;
-    font-weight: 100;
-    font-size: small;
+    color: #fff;
+    align-items: center;
+    
     text-align: center;
     border: none;
     outline: none;
@@ -144,13 +151,5 @@ background-color: #9197B3;
    
        
  } 
- .form{
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px;
-    
 
-}
- 
+   */

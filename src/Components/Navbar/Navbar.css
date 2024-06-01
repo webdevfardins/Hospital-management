@@ -4,7 +4,7 @@
   margin-left: 10px;
 }
 li a,button{
-    font-weight: 00;
+    font-weight: 400;
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
@@ -15,6 +15,9 @@ header{
     align-items: center;
     padding: 5px 5%;
     background-color: #6A45F3;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
 }
 .nav_links{
     list-style: none;
@@ -32,8 +35,8 @@ padding: 0 20px;
 
 }
 button{
-    position: relative;
-    padding: 9px;
+    
+    padding: 5px 30px;
     background-color: #FFFFFF;
     color: #6A45F3;
     border: none;
@@ -42,10 +45,5 @@ button{
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-#bt{
-    font-size: small;
-    color: #6A45F3;
-    font-weight: light;
-    width: 120px;
-}
+
 

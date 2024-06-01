@@ -10,6 +10,7 @@ import SignUp from './Components/SignUp/SignUp';
 import Signin from './Components/SignIn/Signin';
 import Home from './Components/home/Home';
 import { Routes, Route } from 'react-router-dom';
+import PatientDashboard from './Components/patientList/PatientDashboard';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
        
         <Route path="/signin" element={ <Signin/>}/>
         <Route path="/signup" element={<SignUp/>} />
+        <Route path="/Patient" element={ <PatientDashboard/>}/>
    
     </Routes>
     

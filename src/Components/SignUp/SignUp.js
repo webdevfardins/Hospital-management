@@ -2,43 +2,49 @@ import React from "react";
 import "./Signup.css";
 function SignUp() {
   return (
-    <div className="container">
-      <div className="box1">
-        <div className="box">
-          <div>
-            
-              <h4>Sign Up</h4>
-            
-            <form className="form">
-              <input type="text" name="" placeholder="Name" className="input" />
-              <br />
-              <input type="text" name="" placeholder="Email" className="input" />
-              <br />
-              <input type="text" name="" placeholder="Password" className="input" />
-              <br />
-              <input
-                type="text"
-                name=""
-                placeholder="Confirm Password"
-                className="input"
-              />
-              <br />
+    <div className="container forms">
+    <div className="form login">
+      <div className="form-content">
+        <h4>
+          sign in
+        </h4>
+        <form action="">
+        <div className="field input-field">
+            <input type="text" placeholder="name" className="input" />
 
-              <div className="cel">
-                <input type="checkbox" name="" id="check" />
-                <label>I Accept Terms And Conditions</label>
-                <br />
-              </div>
-              <div id="btn">
-                <button type="button" id="btn1">
-                  submit
-                </button>
-              </div>
-            </form>
+
           </div>
-        </div>
+          <div className="field input-field">
+            <input type="email" placeholder="Email" className="input" />
+
+
+          </div>
+          <div className="field input-field">
+            <input type="password" placeholder="Password" className="input" />
+            
+
+          </div>
+          <div className="field input-field">
+            <input type="password" placeholder=" Confirm  Password" className="input" />
+            
+
+          </div>
+          <div className="cel">
+            <input type="checkbox"className="input" />
+            <label>I Accept Terms And Conditions</label>
+
+          </div>
+          <div className="field button-field">
+            <button id="btn">submit</button>
+            
+
+          </div>
+        </form>
       </div>
     </div>
+    
+    </div>
+
   );
 }
 
