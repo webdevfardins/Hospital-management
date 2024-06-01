@@ -6,7 +6,8 @@ function SignUp() {
     <div className="form login">
       <div className="form-content">
         <h4>
-          sign in
+          sign up
+          
         </h4>
         <form action="">
         <div className="field input-field">
