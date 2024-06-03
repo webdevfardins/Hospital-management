@@ -46,7 +46,56 @@ function MainContent() {
        
       </div>
 
+      <div class="main-content2">
+        <div class="card">
+        
+        <div class="card-container">
+        <h1>All Patients</h1>
+          <div id='inp'>
+          <i class="fa fa-magnifying-glass"></i>
+
+          <input type="search" placeholder='search' name="" id="" />
+          
+          </div>
+          <button> submit</button>
+
+          <select>
+
+        
+          <option value=""> Newest</option>
+        </select>
+        </div>
+        <div className='rows'>
+        <tabel>
+          <tr>
+            <th>Last Name</th>
+            <th>First Name</th>
+            <th>DOB</th>
+            <th>Hospital Location</th>
+            <th>Status</th>
+            <th>Face Sheet</th>
+          </tr>
+          <tr>
+            <td>Avernathy</td>
+            <td>Ann</td>
+            <td>05/06/1937</td>
+            <td>Southside Regional Medical Center</td>
+            <td><button>Active</button></td>
+            <td>   <span>yes</span></td>
+          </tr>
+          
+          </tabel>  
+          
+          
+        </div>
+        
+       
+        
+        </div>
+        
+
       
+      </div>
     </section>
   </div>
 

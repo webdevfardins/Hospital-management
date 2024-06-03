@@ -11,7 +11,7 @@ function SignUp() {
         </h4>
         <form action="">
         <div className="field input-field">
-            <input type="text" placeholder="name" className="input" />
+            <input type="text" placeholder="Name" className="input" />
 
 
           </div>

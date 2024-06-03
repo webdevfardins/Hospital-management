@@ -1,3 +1,4 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
 /* body {
     background-color: #ECF0FB;
     width: 100%;
@@ -71,7 +72,6 @@ hr{
     justify-content: center;
     padding: 20px;
 } */
-
 .input{
     width: 80%;
     height: 30px;
@@ -115,18 +115,31 @@ label{
 
 }
 input[type="checkbox"] {
-    appearance: none;
-    
+   appearance: none;
+   -webkit-appearance: none;
+   cursor: pointer;
+   background-color: #9197B3;
     height: 15px;
     width: 15px;
-background-color: #9197B3;
-    
+    display: inline-block;
+    position: relative;
+    transition: .3s all ease-in-out;
     
   }
   
-  input[type="checkbox"]:checked{
-    background-color: #ECF0FB;
-  }
+  
+  input[type="checkbox"]:after{
+    font-family: font Awesome 5 free;
+    content: '\f00c';
+    font-size: 50px;
+    color:white;
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+
+
+
   
  #btn1{
     background-color: #5932EA;

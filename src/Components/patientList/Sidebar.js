@@ -1,50 +1,50 @@
 import React from 'react'
 import imm from "./logo12.png"
-import { LuChevronLeftCircle } from "react-icons/lu";
-import { IoCubeOutline } from "react-icons/io5";
-import { PiUserSquareLight } from "react-icons/pi";
-import { CiWallet } from "react-icons/ci";
-import { TiKeyOutline } from "react-icons/ti";
-import { GrStatusUnknown } from "react-icons/gr";
-import "./patientList.css"
-
+import Square from './images/Square1.svg'
+import LeftArrow  from './images/left-arrow.svg'
+import listmenu from    './images/List Menu.svg'
+import wallet from './images/wallet.svg'
+import "./Sidebar.css"
+import help from "./images/message-question.svg"
+import menu from './images/pat.svg'
 function Sidebar() {
   return (
     
 
-        <div>
+        <div id="container">
 
-        <div >
-            <nav id='nav'>
-                <ul>
+        
+            <aside>
+                <ul >
 
                 <li><a href="" className='log'>
-                <LuChevronLeftCircle />
-                <span className='nav-itams'>DashBoard</span>
+                <img src={LeftArrow} id="left" alt="" />
+                <span className='nav-itam'>DashBoard</span>
+                <span></span>
                     </a></li>
         
                 <img id='img'src={imm} alt="" />
                 </ul>
                  <ul id='ul'>   
                 <li><a id='a' href="">
-                <IoCubeOutline id='logos'/>
+                <img src={Square} alt="" />
                 <span className='nav-itams'>Add/Edit Patient</span>
 </a></li>         
                 <li><a id='a' href="">
 
-                    <PiUserSquareLight id='logos'/>
+                <img src={menu} alt="" />
                     <span className='nav-itams'>Patient</span>
                     </a></li>
                     <li><a id='a' href="">
-                        <CiWallet id='logos'/>
+                    <img src={wallet} alt="" />
                         <span>Charges</span>
                         </a></li>
                     <li><a id='a' href="">
-                        <TiKeyOutline id='logos'/>
+                    <img src={listmenu} alt="" />
                         <span className='nav-itams'>sign out</span>
                         </a></li>
                     <li><a id='a' href="">
-                    <GrStatusUnknown id='logos'/>
+                    <img src={help} alt="" />
                     <span className='nav-itams'>Help</span>
 
                     </a>
@@ -52,8 +52,8 @@ function Sidebar() {
                     </li>
                     
                 </ul>
-            </nav>
-        </div>
+            </aside>
+        
        
     
   
