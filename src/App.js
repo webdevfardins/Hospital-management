@@ -1,5 +1,5 @@
 
-
+import './App.css'
 import AddPatient from './Components/AddPatient';
 import DateAndLocation from './Components/DateAndLocation';
 import Footer from './Components/Footer/Footer';
@@ -10,20 +10,22 @@ import SignUp from './Components/SignUp/SignUp';
 import Signin from './Components/SignIn/Signin';
 import Home from './Components/home/Home';
 import { Routes, Route } from 'react-router-dom';
-import PatientDashboard from './Components/patientList/PatientDashboard';
+import Dashboard from './Components/patientList/Dashboard';
+
+
 
 function App() {
   return (
     <div className="App">
-    <Navbar/>
+    {/* <Navbar/> */}
     
-      <Routes>
+      {/* <Routes> */}
        
-        <Route path="/signin" element={ <Signin/>}/>
-        <Route path="/signup" element={<SignUp/>} />
-        <Route path="/Patient" element={ <PatientDashboard/>}/>
+          {/* <Route path="/signin" element={ <Signin/>}/>
+          <Route path="/signup" element={<SignUp/>} /> */}
+         <Dashboard/>
    
-    </Routes>
+   {/*  </Routes> */}
     
     
     </div>

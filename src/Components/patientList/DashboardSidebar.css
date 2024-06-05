@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: hsl(0, 0%, 100%);
+    width: 30%;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    padding: 10px;
+}
+
+.logo{
+    color: black;
+    font-size:large;
+    font-weight: bold;
+}
+
+
+#img{
+  width: 70%;
+  height: 80px;
+  
+}
+
+#ul{
+  margin-top: 40px;
+  transition: all 0.5s;
+
+  
+}
+
+#ul li{
+  list-style: none;
+  padding:5px 0;
+  transition: all 0.5s;
+
+}
+#ul li a{
+    display: flex;
+    color: #9197B3;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+#ul li a span{
+  padding-left: 5px;
+  transition: all 0.5s;
+
+}
+
+#ul li a:hover{
+  background-color: #5932EA;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.5s;
+
+  
+}
+#ul li a img{
+  width: 20px;
+  transition: all 0.5s;
+
+
+}
+@media only screen and (max-width: 1024px) {
+
+    .sidebar {
+        position: fixed;
+		
+		left: 0;
+		height: 100%;
+		width: 5%;
+		display: flex;
+		flex-direction: column;
+        text-align: center;
+        font-size: 20%;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+       
+		background-color: #6A45F3;
+		transition: 1s;
+    }
+    #ul li a span{
+        display: none;
+    }
+    #ul:hover{
+        background-color: #fff;
+        color: #333;
+        border-radius: 5px;
+        transition: all 0.5s;
+        visibility: visible;
+        
+      }
+
+   
+  }
+  
